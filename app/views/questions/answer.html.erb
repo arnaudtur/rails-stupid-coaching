@@ -1,0 +1,20 @@
+<h1>Silly Coach 🦖🔥</h1>
+
+
+<div class="card-product">
+  <img src="https://i.pinimg.com/originals/91/df/5b/91df5b63afaca20c4891e611580bbc49.jpg" />
+  <div class="card-product-infos">
+    <h2> <%= @my_question %></h2>
+    <p>You</p>
+  </div>
+</div>
+
+<div class="card-product">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51fAalG8hjL._AC_SX355_.jpg" />
+  <div class="card-product-infos">
+    <h2> <%= @answer %></h2>
+    <p>Angry Coach</p>
+  </div>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "btn btn-gradient" %>
